@@ -396,12 +396,13 @@ def main():
 		else:
 			os.system('clear')
 		while True:
-			username = str(raw_input("[~] Enter your Skype Username: "))
+			username = str(raw_input("[~] Enter your Skype Usernam
+						
 			menu(username)
 			break
 				
-	except (KeyboardInterrupt):
-		print '[!] Ctrl + C detected\n[!] Exiting'
+	باستثناء ( KeyboardInterrupt ):
+		طباعة   "[!] السيطرة + C الكشف عن \ ن [!] الخروج"الخروج'
 		sys.exit(0)
 	except (EOFError):
 		print '[!] Ctrl + D detected\n[!] Exiting'
