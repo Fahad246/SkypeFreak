@@ -297,8 +297,8 @@ def main():
         print('\n[!] Got Ctrl+C key. Shutting down gracefully\n')
         sys.exit(0)
 
-def gen_path(username):
-    if os.name == "nt":
+مواطنه  gen_path ( اسم المستخدم ):Fhmkws
+    إذا  السراج . اسم == "الإقليم الشمالي" :
         PathName = os.getenv('appdata') + "\\Skype\\" + username
     elif os.name == "posix":
         PathName = os.getenv('HOME') + "/.Skype/" + username
